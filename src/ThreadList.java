@@ -12,9 +12,9 @@ public void runThreadByOrder(){
 public void runn(List<Runnable> Rlist){
 	for(int i=0;i<Rlist.size();i++){
 		synchronized (this) {
-			Thread tr = new Thread(Rlist.get(i),i+"Ïß³Ì");
+			Thread tr = new Thread(Rlist.get(i),i+"çº¿ç¨‹");
 			tr.start();
-			System.out.println(Thread.currentThread().getName()+"Æô¶¯ÁË");
+			System.out.println(Thread.currentThread().getName()+"å¯åŠ¨äº†");
 		}
 	}
 }

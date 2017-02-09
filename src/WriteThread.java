@@ -23,7 +23,7 @@ public class WriteThread implements Runnable{
 			}
 			sBuffer.append('\n');
 			mfFile.write(sBuffer);
-			System.out.println(Thread.currentThread().getName()+"×·¼ÓÁË"+sBuffer.toString());
+			System.out.println(Thread.currentThread().getName()+"è¿½åŠ äº†"+sBuffer.toString());
 		}catch(Exception exception){
 			exception.printStackTrace();
 		}

@@ -48,7 +48,7 @@ public class UniqueArray {
     	}
     	 long endTime=System.currentTimeMillis();
     	 long time=endTime-starTime;
-    	 System.out.println("È¥ÖØºÄ·ÑÊ±¼äÎª:"+starTime+" "+endTime+" "+time);
+    	 System.out.println("å»é‡è€—æ—¶:"+starTime+" "+endTime+" "+time);
         for(int k:arr){
         	System.out.print(k+" ");
         }
@@ -72,7 +72,7 @@ public class UniqueArray {
     	}
     	long end=System.currentTimeMillis();
     	long time=end-start;
-    	System.out.println("È¥ÖØºÄÊ±:"+start+" "+end+" "+time);
+    	System.out.println("å»é‡è€—æ—¶:"+start+" "+end+" "+time);
     	Iterator<Integer> ir=list.iterator();
     	while(ir.hasNext()){
     		System.out.print(ir.next()+" ");
@@ -80,14 +80,14 @@ public class UniqueArray {
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	    //²âÊÔÊı×éÈ¥ÖØ
+	    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½
 //    int a[]={1,2,1,6,2,5,2,3,1,2,6,8,6,2,4,6,8,4,5,5,5};
 //    int b[]={1,2,1,6,2,5,2,3,1,2,6,8,6,2,4,6,8,4,5,5,1};
 //    sort(a);
 //    System.out.println();
 //    sort1(b);
 		
-		//²âÊÔÁ¬½Óredis
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½redis
 		Jedis jedis = new Jedis("127.0.0.1",6379);
 		jedis.auth("162534");
 	      System.out.println("Connection to server sucessfully");
@@ -104,7 +104,7 @@ public class UniqueArray {
 //	      map.put("qq", "123456");
 //	      jedis.hmset("userm",map);
 //	      jedis.del("userm");
-		//²âÊÔmapÅÅĞò
+		//ï¿½ï¿½ï¿½ï¿½mapï¿½ï¿½ï¿½ï¿½
 //		Map<String, String> map=new TreeMap<String, String>();
 //		map.put("dasd", "fdsfs");
 //		map.put("asds", "cdcsd");
@@ -113,7 +113,7 @@ public class UniqueArray {
 //			System.out.println(key+"-"+map.get(key));
 //		}
 //		
-		//²âÊÔ·´ÉäµÄÓ¦ÓÃ
+		//ï¿½ï¿½ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½
 //		User user=new User();
 //		user.setHobby("fssf");
 //		user.setUserid("dsfdsf");
@@ -121,7 +121,7 @@ public class UniqueArray {
 //		user.setWork("zzz");
 //		System.out.println(new utils().toString(user));
 		
-		//²âÊÔ±£ÁôĞ¡ÊıÎ»µÄ·½·¨
+		//ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½Î»ï¿½Ä·ï¿½ï¿½ï¿½
 //		double x=23.5445*22;
 //	    
 //		float a=(float) (1.3246*2.45);
@@ -155,15 +155,15 @@ public class UniqueArray {
 //	   
 //	   System.out.println((int)a);
 	   
-	   //²âÊÔÃ¶¾Ù
+	   //ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½
 //	   Result rs=Enum.valueOf(Result.class, "NULLDATE");
 //	   System.out.println(Result.NULLDATE.getMsg());
 		
 //     Ticket ticket=new Ticket(20);
 //     MyThread t1=new MyThread(ticket);
 //	 MyThread t2=new MyThread(ticket);
-//	 Thread th1=new Thread(t1, "Ïß³ÌÒ»");
-//	 Thread th2=new Thread(t2,"Ïß³Ì¶ş");
+//	 Thread th1=new Thread(t1, "ï¿½ß³ï¿½Ò»");
+//	 Thread th2=new Thread(t2,"ï¿½ß³Ì¶ï¿½");
 //	 th1.start();
 //	 th2.start();
 //	 new Thread(new Runnable() {

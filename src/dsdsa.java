@@ -6,7 +6,7 @@ public class dsdsa {
 	 * @throws InterruptedException 
 	 */
 	public synchronized static void test1(){
-		System.out.println(Thread.currentThread().getName()+"进入test1方法");
+		System.out.println(Thread.currentThread().getName()+"杩涘叆test1鏂规硶");
 		test2();
 		try {
 			Thread.sleep(3000);
@@ -14,12 +14,12 @@ public class dsdsa {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println(Thread.currentThread().getName()+"test1方法执行结束");
+		System.out.println(Thread.currentThread().getName()+"test1鏂规硶鎵ц缁撴潫");
 	}
 	
 	public synchronized static void test2(){
-		System.out.println(Thread.currentThread().getName()+"进入test2方法");
-		System.out.println(Thread.currentThread().getName()+"test2方法执行结束");
+		System.out.println(Thread.currentThread().getName()+"杩涘叆test2鏂规硶");
+		System.out.println(Thread.currentThread().getName()+"test2鏂规硶鎵ц缁撴潫");
 	}
     
 }

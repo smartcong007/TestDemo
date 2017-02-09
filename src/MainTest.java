@@ -15,9 +15,9 @@ public class MainTest {
     List<Thread> list = new ArrayList<Thread>();
     for(int i=1;i<101;i++){
     	if(i==1)
-    	   list.add(new Thread(new WriteThread(mFile, null),i+"线程"));
+    	   list.add(new Thread(new WriteThread(mFile, null),i+"绾跨▼"));
     	else
-    		list.add(new Thread(new WriteThread(mFile, list.get(i-2)),i+"线程"));
+    		list.add(new Thread(new WriteThread(mFile, list.get(i-2)),i+"绾跨▼"));
     }
     long time1 = System.currentTimeMillis();
     for(Thread t:list){

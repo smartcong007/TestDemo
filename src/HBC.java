@@ -15,7 +15,7 @@ public class HBC {
 		 List<Thread> list = new ArrayList<Thread>();
 		 long time1 = System.currentTimeMillis();
 		 for(int i=1;i<101;i++){
-			 list.add(new Thread(new WriteThread(mFile,null),"Ïß³Ì"+i));
+			 list.add(new Thread(new WriteThread(mFile,null),"çº¿ç¨‹"+i));
 			 list.get(i-1).start();
 		 }
 		 while(true){

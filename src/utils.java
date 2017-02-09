@@ -16,7 +16,7 @@ public String toString(Object obj){
 //				if(!r.endsWith("[")) r+=",";
 //				r+=f.getName()+"=";
 //				try{
-//					System.out.println("ÓòÀàÐÍ:"+f.getType().toString());
+//					System.out.println("åŸŸç±»åž‹:"+f.getType().toString());
 //					Object val=null;
 //					if(f.getType().toString().equals("int")){
 //					val=f.getInt(obj);

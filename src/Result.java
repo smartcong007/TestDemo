@@ -1,6 +1,6 @@
 
 public enum Result {
-SYSERROR(-1,"系统错误"),NULLDATE(0,"查询数据为空"),SUCCESS(1,"操作成功");
+SYSERROR(-1,"绯荤粺閿欒"),NULLDATE(0,"鏌ヨ鏁版嵁涓虹┖"),SUCCESS(1,"鎿嶄綔鎴愬姛");
 private int state;
 private String msg;
 private Result(int state,String msg){
